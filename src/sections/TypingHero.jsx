@@ -1,11 +1,25 @@
 import { useEffect, useState } from "react";
+import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
+import { vscDarkPlus } from "react-syntax-highlighter/dist/esm/styles/prism";
 
 const phrases = [
-  "Backend-Focused Developer ",
-  "Node.js + Prisma + Supabase",
-  "CS Student, Systems-Minded",
-  "Fixing Privilege Escalation Bugs",
-  "Building cosmet-backend",
+  `int binarySearch(vector<int>& arr, int target) {
+  int left = 0, right = arr.size() - 1;
+
+  while (left <= right) {
+    int mid = left + (right - left) / 2;
+
+    if (arr[mid] == target)
+      return mid;
+
+    if (arr[mid] < target)
+      left = mid + 1;
+    else
+      right = mid - 1;
+  }
+
+  return -1;
+}`,
 ];
 
 export const TypingHero = () => {
@@ -24,18 +38,35 @@ export const TypingHero = () => {
     } else {
       timeout = setTimeout(
         () => setCharIndex((prev) => prev + (deleting ? -1 : 1)),
-        deleting ? 40 : 70,
+        deleting ? 10 : 20,
       );
     }
     return () => clearTimeout(timeout);
   }, [charIndex, deleting, phraseIndex]);
+
   const text = phrases[phraseIndex].slice(0, charIndex);
+
   return (
-    <div>
-      <div className="text-3xl font-medium text-slate-100 min-h-11">
+    <div className="pl-10 pt-12 text-sm">
+      <SyntaxHighlighter
+        language="cpp"
+        style={vscDarkPlus}
+        PreTag={({ children, ...props }) => (
+          <pre
+            {...props}
+            style={{ background: "transparent", margin: 0, padding: 0 }}
+          >
+            {children}
+          </pre>
+        )}
+        CodeTag={({ children, ...props }) => (
+          <code {...props} style={{ background: "transparent" }}>
+            {children}
+          </code>
+        )}
+      >
         {text}
-        <span className="inline-block w-0.75 h-8 bg-cyan-400 ml-1 align-middle animate-pulse" />
-      </div>
+      </SyntaxHighlighter>
     </div>
   );
 };
