@@ -6,7 +6,7 @@ import { TypingHero } from "./TypingHero";
 export const Hero = () => {
   return (
     <div>
-      <section id="top" className="relative pt-40 pb-24 px-6 overflow-hidden">
+      <section id="top" className="relative pt-40 pb-24 px-6 overflow-hidden h-screen">
         <div className="max-w-6xl mx-auto grid lg:grid-cols-[1.1fr_0.9fr] gap-16 items-start">
           <div>
             <motion.div

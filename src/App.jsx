@@ -2,6 +2,7 @@ import React from "react";
 import { Navbar } from "./components/Navbar";
 import CanvasCursor from "./components/CanvasCursor";
 import { Hero } from "./sections/Hero";
+import About from "./sections/about";
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
       <Navbar />
       <main>
         <Hero />
+        <About />
       </main>
     </div>
   );
