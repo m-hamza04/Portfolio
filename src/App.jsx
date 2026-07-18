@@ -3,6 +3,7 @@ import { Navbar } from "./components/Navbar";
 import CanvasCursor from "./components/CanvasCursor";
 import { Hero } from "./sections/Hero";
 import About from "./sections/about";
+import SkillSection from "./sections/SkillSection";
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <main>
         <Hero />
         <About />
+        <SkillSection />
       </main>
     </div>
   );
