@@ -3,6 +3,9 @@ import CanvasCursor from "./components/CanvasCursor";
 import { Hero } from "./sections/Hero";
 import About from "./sections/About";
 import SkillSection from "./sections/SkillSection";
+import Projects from "./sections/Projects";
+import Experience from "./sections/Experience";
+import Contact from "./sections/Contact";
 
 const App = () => {
   return (
@@ -13,6 +16,9 @@ const App = () => {
         <Hero />
         <About />
         <SkillSection />
+        <Projects />
+        <Experience />
+        <Contact />
       </main>
     </div>
   );
