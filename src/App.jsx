@@ -1,7 +1,7 @@
 import { Navbar } from "./components/Navbar";
 import CanvasCursor from "./components/CanvasCursor";
 import { Hero } from "./sections/Hero";
-import About from "./sections/about";
+import About from "./sections/About";
 import SkillSection from "./sections/SkillSection";
 
 const App = () => {
