@@ -28,7 +28,7 @@ export const Hero = () => {
               initial={{ opacity: 0, y: 12 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.1 }}
-              className="font-display font-semibold text-5xl sm:text-6xl lg:text-7xl leading-[1.05] mb-5"
+              className="font-display font-semibold text-4xl md:text-5xl sm:text-6xl lg:text-7xl leading-[1.05] mb-5"
             >
               {profile.name}
             </motion.h1>
@@ -75,7 +75,7 @@ export const Hero = () => {
             initial={{ opacity: 0, y: 16 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.35 }}
-           className="w-10/12">
+            className=" hidden md:block w-10/12 ">
             <TypingHero />
           </motion.div>
         </div>
