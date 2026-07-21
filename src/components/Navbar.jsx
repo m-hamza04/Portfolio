@@ -1,3 +1,4 @@
+import { label } from "framer-motion/client";
 import { useEffect, useState } from "react";
 
 const LINKS = [
@@ -5,6 +6,7 @@ const LINKS = [
   { href: "#work", label: "Work" },
   { href: "#skills", label: "Skills" },
   { href: "#experience", label: "Experience" },
+  {href:"#certfication", label:"Certificates"},
   { href: "#contact", label: "Contact" },
 ];
 

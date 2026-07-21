@@ -10,9 +10,9 @@ export default function Contact() {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ duration: 0.5 }}
-                    className="font-mono text-xs text-accent tracking-wide mb-4"
+                    className="font-mono text-xs text-accent tracking-wide mb-4 text-start"
                 >
-                    05 / CONTACT
+                    06 / CONTACT
                 </motion.p>
 
                 <motion.h2

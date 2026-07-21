@@ -141,3 +141,20 @@ export const activities = [
         ],
     },
 ];
+
+export const certification = [
+    {
+        name: "Google AI Professional Certificate",
+        issuer: "Google (via Coursera)",
+         skills: [
+            "AI Fundamentals",
+            "AI for Brainstorming and Planning",
+            "AI for Research and Insights",
+            "AI for Writing and Communicating",
+            "AI for Content Creation",
+            "AI for Data Analysis",
+            "AI for App Building",
+        ],
+        credentialUrl:'https://www.coursera.org/account/accomplishments/professional-cert/O5VW0BRTSTFJ'
+    }
+]

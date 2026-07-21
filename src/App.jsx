@@ -7,6 +7,7 @@ import Projects from "./sections/Projects";
 import Experience from "./sections/Experience";
 import Contact from "./sections/Contact";
 import { useMediaQuery } from "react-responsive";
+import Certification from "./sections/Certification";
 
 const App = () => {
   const isDesktop = useMediaQuery({ minWidth: 1024 });
@@ -20,6 +21,7 @@ const App = () => {
         <SkillSection />
         <Projects />
         <Experience />
+        <Certification />
         <Contact />
       </main>
     </div>
