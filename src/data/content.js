@@ -23,7 +23,7 @@ export const education = {
 export const skills = [
     {
         category: "Languages",
-        items: ["C", "C++", "JavaScript", "SQL","Dart"],
+        items: ["C", "C++", "JavaScript", "SQL", "Dart"],
     },
     {
         category: "Backend",
@@ -31,11 +31,11 @@ export const skills = [
     },
     {
         category: "Frontend",
-        items: ["React.js", "HTML", "CSS","Flutter"],
+        items: ["React.js", "HTML", "CSS", "Flutter"],
     },
     {
         category: "Databases",
-        items: ["Oracle 21c XE", "PL/SQL", "MySQL", "MongoDB","Supabase","MS Access"],
+        items: ["Oracle 21c XE", "PL/SQL", "MySQL", "MongoDB", "Supabase", "MS Access"],
     },
     {
         category: "Concepts",
@@ -129,6 +129,18 @@ export const experience = [
             "Tested APIs with Postman and documented setup, endpoints, and sample payloads in README files",
         ],
     },
+    {
+        role: "Full Stack Intern",
+        org: "Zenvyro labs",
+        duration: "8 weeks",
+        points: [
+            "Built Flowdeck, a full-stack project management and team collaboration platform, with a three-layer architecture: Node.js/TypeScript/Prisma/Supabase/Socket.io backend, React/Vite/TanStack/Redux frontend, and a standalone React admin console",
+            "Designed a custom pastel UI system with sage-teal accents, sliding sidebar navigation, and priority-indicator components across the frontend and admin console",
+            "Resolved production-level issues including Prisma v7 breaking changes, ESM/CommonJS module conflicts, and Docker build/deployment configuration",
+            "Deployed backend on Railway and frontend on Vercel, seeding the app with realistic data for portfolio demos",
+        ],
+    },
+
 ];
 
 export const activities = [
@@ -146,7 +158,7 @@ export const certification = [
     {
         name: "Google AI Professional Certificate",
         issuer: "Google (via Coursera)",
-         skills: [
+        skills: [
             "AI Fundamentals",
             "AI for Brainstorming and Planning",
             "AI for Research and Insights",
@@ -155,6 +167,19 @@ export const certification = [
             "AI for Data Analysis",
             "AI for App Building",
         ],
-        credentialUrl:'https://www.coursera.org/account/accomplishments/professional-cert/O5VW0BRTSTFJ'
-    }
+        credentialUrl: 'https://www.coursera.org/account/accomplishments/professional-cert/O5VW0BRTSTFJ'
+    },
+    {
+        name: "The Full Stack Web Development 2026: Bootcamp",
+        issuer: "Udemy",
+        skills: [
+            "MongoDB",
+            "Express.js",
+            "React",
+            "Node.js",
+            "PHP",
+            "Python (Programming Language)",
+        ],
+        credentialUrl: 'https://ude.my/UC-e1ac88cc-143e-43ab-af68-a2096bf3a652'
+    },
 ]
