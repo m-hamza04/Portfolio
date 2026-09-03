@@ -45,8 +45,37 @@ export const skills = [
 
 export const projects = [
     {
+        name: "Project Managment and Team Collaborative Platform",
+        tag: "Full-Stack / Project Management",
+        description:
+            "A full-stack project management and team collaboration platform built during a Zenvyro Labs internship, with a three-layer architecture spanning backend, frontend, and a standalone admin console.",
+        highlights: [
+            "Node.js/TypeScript/Prisma/Supabase backend with Socket.io for real-time features",
+            "React/Vite/TanStack/Redux frontend with a pastel design system and sage-teal accents",
+            "Standalone React admin console with Recharts for analytics dashboards",
+        ],
+        stack: ["Node.js", "TypeScript", "Prisma", "Supabase", "React", "Vite", "Redux", "Socket.io"],
+        stat: { label: "Type", value: "Full-Stack" },
+        github: "",
+    },
+    {
+        name: "Real-Time Chat Application",
+        tag: "Full Stack / MERN",
+        description:
+            "A full-stack real-time chat application with instant messaging, image sharing, and online presence, built with the MERN stack and Socket.io for live communication.",
+        highlights: [
+            "Real-time messaging and typing indicators via Socket.io",
+            "JWT authentication with httpOnly cookies and protected routes",
+            "Image uploads handled through Cloudinary, rate limiting and bot protection via Arcjet",
+            "Global state managed with Redux Toolkit, UI built with Tailwind CSS and DaisyUI",
+        ],
+        stack: ["React", "Redux Toolkit", "Node.js", "Express", "MongoDB", "Socket.io", "Tailwind", "DaisyUI"],
+        stat: { label: "Type", value: "Full Stack" },
+        github: "https://github.com/m-hamza04/Chatify.git",
+    },
+    {
         name: "PSX IntelliTrade",
-        tag: "Flagship Project",
+        tag: "Nodejs",
         description:
             "A three-tier stock portfolio and market analytics platform for the Pakistan Stock Exchange — React frontend, Express REST API, and an Oracle 21c XE database enforcing business logic through PL/SQL.",
         highlights: [
