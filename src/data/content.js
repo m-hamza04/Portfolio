@@ -23,15 +23,15 @@ export const education = {
 export const skills = [
     {
         category: "Languages",
-        items: ["C", "C++", "JavaScript", "SQL", "Dart"],
+        items: ["C", "C++", "JavaScript", "SQL", "Dart","Python"],
     },
     {
         category: "Backend",
-        items: ["Node.js", "Express.js", "REST APIs", "MVC Architecture"],
+        items: ["Node.js", "Express.js", "REST APIs", "MVC Architecture","Socket.io"],
     },
     {
         category: "Frontend",
-        items: ["React.js", "HTML", "CSS", "Flutter"],
+        items: ["React.js","Redux","Tailwind", "HTML", "CSS", "Flutter"],
     },
     {
         category: "Databases",
@@ -39,7 +39,7 @@ export const skills = [
     },
     {
         category: "Concepts",
-        items: ["OOP", "Data Structures", "Normalization", "Role-Based Access", "OAuthorization"],
+        items: ["OOP", "Data Structures", "Normalization", "Authentication", "OAuthorization","JWT",],
     },
 ];
 
