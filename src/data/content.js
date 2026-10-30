@@ -41,6 +41,10 @@ export const skills = [
         category: "Concepts",
         items: ["OOP", "Data Structures", "Normalization", "Authentication", "OAuthorization","JWT",],
     },
+    {
+        category: "Machine Learning",
+        items: ["NumPy", "Pandas", "Scikit-learn", "Matplotlib", "Data Preprocessing","Regression",,"Classification","Supervised Learning"],
+    },
 ];
 
 export const projects = [
