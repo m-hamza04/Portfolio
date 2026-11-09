@@ -23,7 +23,7 @@ export const education = {
 export const skills = [
     {
         category: "Languages",
-        items: ["C", "C++", "JavaScript", "SQL", "Dart","Python"],
+        items: ["C", "C++","Java", "JavaScript", "SQL", "Dart","Python"],
     },
     {
         category: "Backend",
@@ -31,7 +31,7 @@ export const skills = [
     },
     {
         category: "Frontend",
-        items: ["React.js","Redux","Tailwind", "HTML", "CSS", "Flutter"],
+        items: ["React.js","Redux","Tailwind", "HTML", "CSS", "Flutter","JavaFx"],
     },
     {
         category: "Databases",
@@ -39,7 +39,7 @@ export const skills = [
     },
     {
         category: "Concepts",
-        items: ["OOP", "Data Structures", "Normalization", "Authentication", "OAuthorization","JWT",],
+        items: ["OOP", "Data Structures", "Normalization", "Authentication", "OAuthorization","JWT","Design Pattern"],
     },
     {
         category: "Machine Learning",
@@ -60,7 +60,7 @@ export const projects = [
         ],
         stack: ["Node.js", "TypeScript", "Prisma", "Supabase", "React", "Vite", "Redux", "Socket.io"],
         stat: { label: "Type", value: "Full-Stack" },
-        github: "",
+        github: "https://github.com/m-hamza04/",
     },
     {
         name: "Real-Time Chat Application",
