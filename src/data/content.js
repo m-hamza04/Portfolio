@@ -23,15 +23,15 @@ export const education = {
 export const skills = [
     {
         category: "Languages",
-        items: ["C", "C++","Java", "JavaScript", "SQL", "Dart","Python"],
+        items: ["C", "C++", "Java", "JavaScript", "SQL", "Dart", "Python"],
     },
     {
         category: "Backend",
-        items: ["Node.js", "Express.js", "REST APIs", "MVC Architecture","Socket.io"],
+        items: ["Node.js", "Express.js", "REST APIs", "MVC Architecture", "Socket.io"],
     },
     {
         category: "Frontend",
-        items: ["React.js","Redux","Tailwind", "HTML", "CSS", "Flutter","JavaFx"],
+        items: ["React.js", "Redux", "Tailwind", "HTML", "CSS", "Flutter", "JavaFx"],
     },
     {
         category: "Databases",
@@ -39,11 +39,11 @@ export const skills = [
     },
     {
         category: "Concepts",
-        items: ["OOP", "Data Structures", "Normalization", "Authentication", "OAuthorization","JWT","Design Pattern"],
+        items: ["OOP", "Data Structures", "Normalization", "Authentication", "OAuthorization", "JWT", "Design Pattern"],
     },
     {
         category: "Machine Learning",
-        items: ["NumPy", "Pandas", "Scikit-learn", "Matplotlib", "Data Preprocessing","Regression",,"Classification","Supervised Learning"],
+        items: ["NumPy", "Pandas", "Scikit-learn", "Matplotlib", "Data Preprocessing", "Regression", , "Classification", "Supervised Learning"],
     },
 ];
 
@@ -91,6 +91,20 @@ export const projects = [
         stack: ["Oracle 21c XE", "PL/SQL", "Node.js", "Express", "React", "Recharts"],
         stat: { label: "Tables", value: "12" },
         github: "https://github.com/m-hamza04/PSX_IntelliTrade.git",
+    },
+    {
+        name: "Student Performance Tracking & Early Warning System",
+        tag: "Desktop App / Java",
+        description:
+            "A desktop application that tracks student attendance and academic scores, calculating real-time performance metrics and automatically dispatching early warning alerts for at-risk students using decoupled design patterns.",
+        highlights: [
+            "Rule-based automated early warning engine powered by Strategy & Observer patterns",
+            "Strict 5-layer decoupled architecture: FXML → Controller → Service → DAO → SQLite",
+            "Full academic lifecycle management: attendance, assessments, and real-time performance analytics",
+        ],
+        stack: ["Java 21", "JavaFX", "SQLite", "Design Patterns", "Maven"],
+        stat: { label: "Type", value: "Desktop GUI" },
+        github: "https://github.com/m-hamza04/student_performance_tracking_system",
     },
     {
         name: "File Compression System",
